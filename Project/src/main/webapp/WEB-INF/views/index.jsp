@@ -35,44 +35,7 @@
 </div>
 
 <!-- Header section -->
-<header class="header-section">
-	<div class="header-top">
-		<div class="container">
-			<div class="header-social">
-				<a href="#"><i class="fa fa-pinterest"></i></a>
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-dribbble"></i></a>
-				<a href="#"><i class="fa fa-behance"></i></a>
-				<a href="#"><i class="fa fa-linkedin"></i></a>
-			</div>
-			<div class="user-panel">
-				<a href="#">Register</a> / 
-				<a href="#">Login</a>
-			</div>
-		</div>
-	</div>
-	<div class="header-bottom">
-		<div class="container">
-			<a href="index.html" class="site-logo">
-				<img src="/resources/img/logo.png" alt="">
-			</a>
-			<div class="nav-switch">
-				<i class="fa fa-bars"></i>
-			</div>
-			<div class="header-search">
-				<a href="#"><i class="fa fa-search"></i></a>
-			</div>
-			<ul class="main-menu">
-				<li><a href="/">Home</a></li>
-				<li><a href="/about">Features</a></li>
-				<li><a href="/recipes">Receipies</a></li>
-				<li><a href="#">Reviews</a></li>
-				<li><a href="/contact">Contact</a></li>
-			</ul>
-		</div>
-	</div>
-</header>
+<jsp:include page="/WEB-INF/views/inc/top.jsp"></jsp:include>
 <!-- Header section end -->
 
 
@@ -96,36 +59,6 @@
 	</div>
 </section>
 <!-- Hero section end -->
-
-
-<!-- Add section end -->
-<section class="add-section spad">
-	<div class="container">
-		<div class="add-warp">
-			<div class="add-slider owl-carousel">
-				<div class="as-item set-bg" data-setbg="/resources/img/add/1.jpg"></div>
-				<div class="as-item set-bg" data-setbg="/resources/img/add/2.jpg"></div>
-				<div class="as-item set-bg" data-setbg="/resources/img/add/3.jpg"></div>
-			</div>
-			<div class="row add-text-warp">
-				<div class="col-lg-4 col-md-5 offset-lg-8 offset-md-7">
-					<div class="add-text text-white">
-						<div class="at-style"></div>
-						<h2>Amazing deserts</h2>
-						<ul>
-							<li>Easy to make</li>
-							<li>Step by Step Video Tutorial</li>
-							<li>Gluten Free</li>
-							<li>Healty  Ingredients</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- Add section end -->
-
 
 <!-- Recipes section -->
 <section class="recipes-section spad pt-0">
@@ -248,7 +181,7 @@
 		<div class="row">
 			<div class="col-lg-4 col-md-6 ftw-warp">
 				<div class="section-title">
-					<h3>Top rated recipes</h3>
+					<h3>평점</h3>
 				</div>
 				<ul class="sp-recipes-list">
 					<li>
@@ -325,7 +258,7 @@
 			</div>
 			<div class="col-lg-4 col-md-6 ftw-warp">
 				<div class="section-title">
-					<h3>Most liked recipes</h3>
+					<h3>조회</h3>
 				</div>
 				<ul class="sp-recipes-list">
 					<li>
@@ -496,42 +429,7 @@
 
 
 <!-- Footer section  -->
-<footer class="footer-section set-bg" data-setbg="/resources/img/footer-bg.jpg">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-6">
-				<div class="footer-logo">
-					<img src="img/logo.png" alt="">
-				</div>
-				<div class="footer-social">
-					<a href="#"><i class="fa fa-pinterest"></i></a>
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-dribbble"></i></a>
-					<a href="#"><i class="fa fa-behance"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-				</div>
-			</div>
-			<div class="col-lg-6 text-lg-right">
-				<ul class="footer-menu">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Features</a></li>
-					<li><a href="#">Receipies</a></li>
-					<li><a href="#">Reviews</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-				<p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					Copyright &copy;
-					<script>
-					document.write(new Date().getFullYear());
-					</script> 
-					All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-				</p>
-			</div>
-		</div>
-	</div>
-</footer>
+<jsp:include page="/WEB-INF/views/inc/bottom.jsp"></jsp:include>
 <!-- Footer section end -->
 
 
