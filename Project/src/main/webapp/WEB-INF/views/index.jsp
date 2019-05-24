@@ -55,7 +55,7 @@
 	<div class="header-bottom">
 		<div class="container">
 			<a href="index.html" class="site-logo">
-				<img src="img/logo.png" alt="">
+				<img src="/resources/img/logo.png" alt="">
 			</a>
 			<div class="nav-switch">
 				<i class="fa fa-bars"></i>
@@ -66,9 +66,9 @@
 			<ul class="main-menu">
 				<li><a href="/">Home</a></li>
 				<li><a href="/about">Features</a></li>
-				<li><a href="recipes.html">Receipies</a></li>
+				<li><a href="/recipes">Receipies</a></li>
 				<li><a href="#">Reviews</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="/contact">Contact</a></li>
 			</ul>
 		</div>
 	</div>

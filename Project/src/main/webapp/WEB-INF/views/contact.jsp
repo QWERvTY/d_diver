@@ -66,7 +66,7 @@
 				<ul class="main-menu">
 					<li><a href="/">Home</a></li>
 					<li><a href="/about">Features</a></li>
-					<li><a href="recipes.html">Receipies</a></li>
+					<li><a href="/recipes">Receipies</a></li>
 					<li><a href="#">Reviews</a></li>
 					<li><a href="/contact">Contact</a></li>
 				</ul>
