@@ -2,15 +2,14 @@
     pageEncoding="UTF-8"%>
 <header class="header-section">
 	<div class="header-top">
-			<div class="user-panel">
-				<a href="#">Register</a> / 
-				<a href="#">Login</a>
-			</div>
+		<div class="user-panel">
+			<a href="#">Register</a> / 
+			<a href="/login">Login</a>
 		</div>
 	</div>
 	<div class="header-bottom">
 		<div class="container">
-			<a href="index.html" class="site-logo">
+			<a href="/" class="site-logo">
 				<img src="/resources/img/logo.png" alt="">
 			</a>
 			<div class="nav-switch">
