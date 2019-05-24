@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,17 +9,17 @@
 	<meta name="keywords" content="food, unica, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->   
-	<link href="img/favicon.ico" rel="shortcut icon"/>
+	<link href="/resources/img/favicon.ico" rel="shortcut icon"/>
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700" rel="stylesheet">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/animate.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="/resources/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="/resources/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="/resources/css/owl.carousel.css"/>
+	<link rel="stylesheet" href="/resources/css/animate.css"/>
+	<link rel="stylesheet" href="/resources/css/style.css"/>
 
 
 	<!--[if lt IE 9]>
@@ -52,8 +54,8 @@
 		</div>
 		<div class="header-bottom">
 			<div class="container">
-				<a href="index.html" class="site-logo">
-					<img src="img/logo.png" alt="">
+				<a href="/" class="site-logo">
+					<img src="/resources/img/logo.png" alt="">
 				</a>
 				<div class="nav-switch">
 					<i class="fa fa-bars"></i>
@@ -62,11 +64,11 @@
 					<a href="#"><i class="fa fa-search"></i></a>
 				</div>
 				<ul class="main-menu">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">Features</a></li>
+					<li><a href="/">Home</a></li>
+					<li><a href="/about">Features</a></li>
 					<li><a href="recipes.html">Receipies</a></li>
 					<li><a href="#">Reviews</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="/contact">Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -75,7 +77,7 @@
 
 
 	<!-- Hero section -->
-	<section class="page-top-section set-bg" data-setbg="img/page-top-bg.jpg">
+	<section class="page-top-section set-bg" data-setbg="/resources/img/page-top-bg.jpg">
 		<div class="container">
 			<h2>Contact</h2>
 		</div>
@@ -135,7 +137,7 @@
 				</div>
 				<div class="col-lg-4">
 					<div class="contact-logo">
-						<img src="img/logo.png" alt="">
+						<img src="/resources/img/logo.png" alt="">
 					</div>
 					<div class="contact-info">
 						<ul class="ct-list">
@@ -173,24 +175,24 @@
 	<!-- Gallery section -->
 	<div class="gallery">
 		<div class="gallery-slider owl-carousel">
-			<div class="gs-item set-bg" data-setbg="img/instagram/1.jpg"></div>
-			<div class="gs-item set-bg" data-setbg="img/instagram/2.jpg"></div>
-			<div class="gs-item set-bg" data-setbg="img/instagram/3.jpg"></div>
-			<div class="gs-item set-bg" data-setbg="img/instagram/4.jpg"></div>
-			<div class="gs-item set-bg" data-setbg="img/instagram/5.jpg"></div>
-			<div class="gs-item set-bg" data-setbg="img/instagram/6.jpg"></div>
+			<div class="gs-item set-bg" data-setbg="/resources/img/instagram/1.jpg"></div>
+			<div class="gs-item set-bg" data-setbg="/resources/img/instagram/2.jpg"></div>
+			<div class="gs-item set-bg" data-setbg="/resources/img/instagram/3.jpg"></div>
+			<div class="gs-item set-bg" data-setbg="/resources/img/instagram/4.jpg"></div>
+			<div class="gs-item set-bg" data-setbg="/resources/img/instagram/5.jpg"></div>
+			<div class="gs-item set-bg" data-setbg="/resources/img/instagram/6.jpg"></div>
 		</div>
 	</div>
 	<!-- Gallery section end -->
 
 
 	<!-- Footer section  -->
-	<footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
+	<footer class="footer-section set-bg" data-setbg="/resources/img/footer-bg.jpg">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="footer-logo">
-						<img src="img/logo.png" alt="">
+						<img src="/resources/img/logo.png" alt="">
 					</div>
 					<div class="footer-social">
 						<a href="#"><i class="fa fa-pinterest"></i></a>
@@ -222,14 +224,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 
 	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="/resources/js/jquery-3.2.1.min.js"></script>
+	<script src="/resources/js/owl.carousel.min.js"></script>
+	<script src="/resources/js/main.js"></script>
 
 
 	<!-- load for map -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWTIlluowDL-X4HbYQt3aDw_oi2JP0Krc"></script>
-	<script src="js/map.js"></script>
+	<script src="/resources/js/map.js"></script>
 	
 </body>
 </html>

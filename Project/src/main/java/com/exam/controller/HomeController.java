@@ -39,8 +39,27 @@ public class HomeController {
 	
 	@GetMapping("/")
 	public String main(Model model) {
-		System.out.println("main!");
+		System.out.println("main 호출됨...");
 		return "index";
-	}
+	}//main()
+	
+	@GetMapping("/about")
+	public String about() {
+		System.out.println("about 호출됨...");
+		return "about";
+	}//about()
+	
+	@GetMapping("/contact")
+	public String contact() {
+		System.out.println("contact 호출됨...");
+		return "contact";
+	}//contact()
+	
+	@GetMapping("/recipes")
+	public String recipes() {
+		System.out.println("recipes 호출됨...");
+		return "recipes";
+	}//recipes()
+	
 	
 }
