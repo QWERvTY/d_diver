@@ -3,12 +3,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Food Blog - Web Template</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Food Blog Web Template">
-	<meta name="keywords" content="food, unica, creative, html">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
+<title>Food Blog - Web Template</title>
+<meta charset="UTF-8">
+<meta name="description" content="Food Blog Web Template">
+<meta name="keywords" content="food, unica, creative, html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Favicon -->   
 <link href="/resources/img/favicon.ico" rel="shortcut icon"/>
 
 <!-- Google Fonts -->
@@ -61,12 +61,12 @@
 				<option>코미디</option>
 				<option>공포(호러)</option>
 			</select>
-			<select>
-				<option>All Ingredients</option>
-				<option>Breakfast</option>
-				<option>Lunch</option>
-				<option>Dinner</option>
-			</select>
+<!-- 			<select> -->
+<!-- 				<option>All Ingredients</option> -->
+<!-- 				<option>Breakfast</option> -->
+<!-- 				<option>Lunch</option> -->
+<!-- 				<option>Dinner</option> -->
+<!-- 			</select> -->
 			<input type="text" placeholder="검색">
 			<button class="bsf-btn">검색</button>
 		</form>
@@ -201,6 +201,7 @@
 		<a href="#">03</a>
 	</div>
 </div>
+</div>
 </section>
 <!-- Recipes section end -->
 
@@ -329,6 +330,7 @@
 		<a href="#">03</a>
 	</div>
 </div>
+</div>
 </section>
 <!-- Recipes section end -->
 
@@ -456,6 +458,7 @@
 		<a href="#">02</a>
 		<a href="#">03</a>
 	</div>
+</div>
 </div>
 </section>
 <!-- Recipes section end -->

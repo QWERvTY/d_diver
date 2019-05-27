@@ -951,7 +951,7 @@ ol {
 	border: none;
 	padding: 0 25px;
 	margin-right: 17px;
-	width: calc(40.6% - 17px);
+	width: calc(75% - 149px);
 	float: left;
 	font-size: 14px;
 }
@@ -1387,7 +1387,7 @@ ol {
 		        transform-origin: center center;
 	}
 	.big-search-form input {
-		width: calc(37.6% - 17px);
+		width: calc(75% - 149px);
 	}
 	.footer-menu li a {
 		padding: 15px 8px;
@@ -1433,17 +1433,17 @@ ol {
 		padding-left: 0;
 	}
 	.big-search-form select {
-		width: calc(51% - 17px);
+		width: calc(25% - 17px);
 		margin-bottom: 20px;
 	}
 	.big-search-form select:nth-child(2) {
 		margin-right: 0;
 	}
 	.big-search-form input {
-		width: calc(73.3% - 17px);
+		width: calc(75% - 150px);
 	}
 	.big-search-form .bsf-btn {
-		width: 182px;
+		width: 133px;
 	}
 	.about-text {
 		margin-bottom: 30px;
