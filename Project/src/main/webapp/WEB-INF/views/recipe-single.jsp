@@ -3,13 +3,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Food Blog - Web Template</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Food Blog Web Template">
-	<meta name="keywords" content="food, unica, creative, html">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
-<link href="/resources/img/favicon.ico" rel="shortcut icon"/>
+<title>Food Blog - Web Template</title>
+<meta charset="UTF-8">
+<meta name="description" content="Food Blog Web Template">
+<meta name="keywords" content="food, unica, creative, html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Favicon -->   
+<link href="/resources/img/clapperboard.png" rel="shortcut icon"/>
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700" rel="stylesheet">

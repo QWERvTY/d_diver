@@ -26,7 +26,7 @@ public class HomeController {
 	}//contact()
 	
 	@GetMapping("/movie")
-	public String recipes() {
+	public String movie() {
 		System.out.println("<< movie 호출 >>");
 		return "movie";
 	}//recipes()

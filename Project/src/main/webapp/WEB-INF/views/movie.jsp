@@ -9,7 +9,7 @@
 <meta name="keywords" content="food, unica, creative, html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Favicon -->   
-<link href="/resources/img/favicon.ico" rel="shortcut icon"/>
+<link href="/resources/img/clapperboard.png" rel="shortcut icon"/>
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700" rel="stylesheet">
@@ -60,6 +60,7 @@
 				<option>액션</option>
 				<option>코미디</option>
 				<option>공포(호러)</option>
+				<option>기타</option>
 			</select>
 <!-- 			<select> -->
 <!-- 				<option>All Ingredients</option> -->
@@ -85,12 +86,12 @@
 				<h2>추천영화</h2>
 			</div>
 		</div>
-		<div class="col-md-4">
-			<div class="recipe-view">
-				<i class="fa fa-bars"></i>
-				<i class="fa fa-th active"></i>
-			</div>
-		</div>
+<!-- 		<div class="col-md-4"> -->
+<!-- 			<div class="recipe-view"> -->
+<!-- 				<i class="fa fa-bars"></i> -->
+<!-- 				<i class="fa fa-th active"></i> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
 	</div>
 	<div class="row">
 		<div class="col-lg-4 col-md-6">
@@ -214,12 +215,12 @@
 				<h2>인기영화</h2>
 			</div>
 		</div>
-		<div class="col-md-4">
-			<div class="recipe-view">
-				<i class="fa fa-bars"></i>
-				<i class="fa fa-th active"></i>
-			</div>
-		</div>
+<!-- 		<div class="col-md-4"> -->
+<!-- 			<div class="recipe-view"> -->
+<!-- 				<i class="fa fa-bars"></i> -->
+<!-- 				<i class="fa fa-th active"></i> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
 	</div>
 	<div class="row">
 		<div class="col-lg-4 col-md-6">
@@ -343,12 +344,12 @@
 				<h2>NEW!!</h2>
 			</div>
 		</div>
-		<div class="col-md-4">
-			<div class="recipe-view">
-				<i class="fa fa-bars"></i>
-				<i class="fa fa-th active"></i>
-			</div>
-		</div>
+<!-- 		<div class="col-md-4"> -->
+<!-- 			<div class="recipe-view"> -->
+<!-- 				<i class="fa fa-bars"></i> -->
+<!-- 				<i class="fa fa-th active"></i> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
 	</div>
 	<div class="row">
 		<div class="col-lg-4 col-md-6">
