@@ -9,7 +9,7 @@
 <meta name="keywords" content="food, unica, creative, html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Favicon -->   
-<link href="/resources/img/favicon.ico" rel="shortcut icon"/>
+<link href="/resources/img/clapperboard.png" rel="shortcut icon"/>
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700" rel="stylesheet">
@@ -22,10 +22,6 @@
 <link rel="stylesheet" href="/resources/css/style.css"/>
 
 
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
 
 </head>
 <body>
@@ -42,37 +38,11 @@
 <!-- Hero section -->
 <section class="page-top-section set-bg" data-setbg="/resources/img/page-top-bg.jpg">
 	<div class="container">
-		<h2>About us</h2>
+		<h2>내 컨텐츠</h2>
 	</div>
 </section>
 <!-- Hero section end -->
 
-
-<!-- Search section -->
-<div class="search-form-section">
-<div class="sf-warp">
-	<div class="container">
-		<form class="big-search-form">
-			<select>
-				<option>All Recipes Categories</option>
-				<option>Pizza</option>
-				<option>Salads</option>
-				<option>Desserts</option>
-				<option>Side Dishes</option>
-			</select>
-			<select>
-				<option>All Ingredients</option>
-				<option>Breakfast</option>
-				<option>Lunch</option>
-				<option>Dinner</option>
-			</select>
-			<input type="text" placeholder="Search Receipies">
-			<button class="bsf-btn">Search</button>
-		</form>
-	</div>
-</div>
-</div>
-<!-- Search section end -->
 
 
 <!-- About section -->

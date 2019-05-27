@@ -20,7 +20,7 @@
 			<ul class="footer-menu">
 				<li><a href="/">홈</a></li>
 				<li><a href="/about">내컨텐츠</a></li>
-				<li><a href="/recipes">영화</a></li>
+				<li><a href="/movie">영화</a></li>
 				<li><a href="#">통계</a></li>
 				<li><a href="/contact">Contact</a></li>
 			</ul>

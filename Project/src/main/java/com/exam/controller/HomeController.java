@@ -25,10 +25,10 @@ public class HomeController {
 		return "contact";
 	}//contact()
 	
-	@GetMapping("/recipes")
-	public String recipes() {
-		System.out.println("<< recipes 호출 >>");
-		return "recipes";
+	@GetMapping("/movie")
+	public String movie() {
+		System.out.println("<< movie 호출 >>");
+		return "movie";
 	}//recipes()
 	
 	@GetMapping("/login")
