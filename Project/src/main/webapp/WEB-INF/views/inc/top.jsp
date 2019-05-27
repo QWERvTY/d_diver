@@ -3,7 +3,7 @@
 <header class="header-section">
 	<div class="header-top">
 		<div class="user-panel">
-			<a href="#">Register</a> / 
+			<a href="/join">Join</a> / 
 			<a href="/login">Login</a>
 		</div>
 	</div>
