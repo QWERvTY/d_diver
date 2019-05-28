@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Join Id Check</title>
 <script>
 function useIdAndClose() {
 	// 현재창을 띄운 부모창의 참조는 window.opener

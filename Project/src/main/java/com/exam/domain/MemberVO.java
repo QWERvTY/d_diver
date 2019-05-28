@@ -13,8 +13,8 @@ public class MemberVO {
 	
 	@DateTimeFormat(pattern="yyyy-MM-dd")
 	private Date regDate;
-	private String cash;
-	private String mileage;
+	private int cash;
+	private int mileage;
 	private String email;
 
 	@DateTimeFormat(pattern="yyyy-MM-dd")

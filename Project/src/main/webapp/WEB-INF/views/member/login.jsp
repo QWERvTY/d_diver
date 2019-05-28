@@ -9,7 +9,7 @@
 <meta name="keywords" content="food, unica, creative, html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Favicon -->   
-<link href="/resources/img/favicon.ico" rel="shortcut icon"/>
+<link href="/resources/img/clapperboard.png" rel="shortcut icon"/>
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700" rel="stylesheet">
@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="/resources/css/owl.carousel.css"/>
 <link rel="stylesheet" href="/resources/css/animate.css"/>
 <link rel="stylesheet" href="/resources/css/style.css"/>
-
+<link rel="stylesheet" href="/resources/css/custom.css" />
 </head>
 <body>
 <!-- Page Preloder -->
@@ -41,32 +41,6 @@
 </section>
 <!-- Hero section end -->
 
-
-<!-- Search section -->
-<!-- <div class="search-form-section">
-	<div class="sf-warp">
-		<div class="container">
-		<form class="big-search-form">
-			<select>
-				<option>All Recipes Categories</option>
-				<option>Pizza</option>
-				<option>Salads</option>
-				<option>Desserts</option>
-				<option>Side Dishes</option>
-			</select>
-			<select>
-				<option>All Ingredients</option>
-				<option>Breakfast</option>
-				<option>Lunch</option>
-				<option>Dinner</option>
-			</select>
-			<input type="text" placeholder="Search Receipies">
-			<button class="bsf-btn">Search</button>
-		</form>
-		</div>
-	</div>
-</div> -->
-<!-- Search section end -->
 
 <section class="contact-section spad">
 <div class="container">
