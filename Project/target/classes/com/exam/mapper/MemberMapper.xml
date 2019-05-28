@@ -6,7 +6,7 @@
 
 	<insert id="insert">
 		INSERT INTO member (id,password,reg_date,cash,mileage,email,birthday,gender)
-		VALUES (#{id},#{password},CURRENT_TIMESTAMP,#{cash},#{mileage},#{email},#{birthday},#{gender})
+		VALUES (#{id},#{password},CURRENT_TIMESTAMP, 0, 0, #{email},#{birthday},#{gender})
 	</insert>
 
 	
