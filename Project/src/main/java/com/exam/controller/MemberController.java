@@ -55,6 +55,12 @@ public class MemberController {
 		System.out.println("<< joinIdCheck 호출 >>");
 		return "member/joinIdCheck";
 	}
+	/*@GetMapping("/joinIdCheckJson")
+    public boolean joinIdCheckJson() {
+        System.out.println("<< joinIdCheckJson 호출 >>");
+        boolean result = 
+        return false;
+    }*/
 	
 	
 	
