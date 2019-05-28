@@ -19,4 +19,23 @@ public class MemberServiceImpl implements MemberService {
 		return mapper.insert(member);
 	}
 
+	@Override
+	public int loginCheck(String id, String password) {
+		int check = -1;
+		MemberVO memberVO = mapper.getMemberById(id);
+		if (memberVO != null) {
+			if (memberVO.getPassword().equals(password)) {
+				check = 1;
+			} else {
+				check = 0;
+			}
+		} else {
+			check = -1;
+		}
+		
+		return check;
+	}
+	
+	
+
 }

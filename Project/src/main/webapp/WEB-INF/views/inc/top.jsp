@@ -1,10 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <header class="header-section">
 	<div class="header-top">
 		<div class="user-panel">
+		<c:choose>
+		<c:when test="${sessionID == null }">
 			<a href="/member/join">Join</a>&nbsp;/&nbsp; 
 			<a href="/member/login">Login</a>
+		</c:when>
+		<c:otherwise>
+			<b><span style="color: #FFBBBB;">${sessionID }</span></b>&nbsp;님&nbsp;
+			<a href="/member/logout"><button class="logout">로그아웃</button></a>
+		</c:otherwise>
+		</c:choose>
 		</div>
 	</div>
 	<div class="header-bottom">

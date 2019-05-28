@@ -48,7 +48,7 @@
 		<div class="col-lg-6" style="margin: auto;">
 		<div class="contact-form-warp">
 			<h4>Sign in to Food Blog</h4>
-			<form class="contact-form">
+			<form action="/member/login" class="contact-form" method="POST">
 				<div class="row">
 					<!-- <div class="col-md-6">
 						<input type="text" placeholder="Name">
@@ -57,11 +57,10 @@
 						<input type="text" placeholder="E-mail">
 					</div> -->
 					<div class="col-md-12">
-						<input type="text" placeholder="ID">
-						<input type="text" placeholder="Password">
-						<!-- <textarea placeholder="Message"></textarea> -->
+						<input type="text" name="id" placeholder="ID">
+						<input type="password" name="password" placeholder="Password">
 						<button class="site-btn">Login</button>
-						<button class="site-btn" style="float: right;">비밀번호 찾기</button>
+						<a href="#"><button type="button" class="site-btn" style="float: right;">비밀번호 찾기</button></a>
 					</div>
 				</div>
 			</form>

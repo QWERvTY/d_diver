@@ -1,5 +1,7 @@
 package com.exam.controller;
 
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -13,6 +15,7 @@ import com.exam.domain.MemberVO;
 import com.exam.service.MemberService;
 
 import lombok.Setter;
+import lombok.extern.log4j.Log4j;
 
 @Controller
 @RequestMapping("/member/*")
@@ -25,6 +28,47 @@ public class MemberController {
 		System.out.println("<< login 호출 >>");
 		return "member/login";
 	}
+	
+	@PostMapping("/login")
+	public ResponseEntity<String> login(MemberVO member, HttpSession session) {
+		System.out.println("<< login, POST >>");
+		int check = service.loginCheck(member.getId(), member.getPassword());
+		
+		if (check != 1) { // 로그인 실패
+			String message = null;
+			if (check == -1) {
+				message = "해당하는 아이디가 없습니다.";
+			} else if (check == 0) {
+				message = "비밀번호가 다릅니다.";
+			} else {
+				message = "로그인 에러 발생, 다시 입력해주세요.";
+			}
+			HttpHeaders headers = new HttpHeaders();
+			headers.add("Content-Type", "text/html; charset=UTF-8");
+			
+			StringBuffer msg = new StringBuffer();
+			msg.append("<script>");
+			msg.append("alert('" + message + "');");
+			msg.append("history.back();");
+			msg.append("</script>");
+			
+			return new ResponseEntity<>(msg.toString(), headers, HttpStatus.OK);
+		}
+		session.setAttribute("sessionID", member.getId());
+		
+		HttpHeaders headers = new HttpHeaders();
+		headers.add("Location", "/"); // redirect 경로 위치
+		return new ResponseEntity<String>(headers, HttpStatus.FOUND);
+	}
+
+	@GetMapping("/logout")
+	public String logout(HttpSession session) {
+		System.out.println("<< logout, GET >>");
+		session.invalidate();
+		
+		return "index";
+	}
+	
 	@GetMapping("/join")
 	public String join() {
 		System.out.println("<< join 호출 >>");
@@ -50,6 +94,8 @@ public class MemberController {
 
         return responseEntity;
 	}//join
+	
+	
 	@GetMapping("/joinIdCheck")
 	public String joinIdCheck() {
 		System.out.println("<< joinIdCheck 호출 >>");

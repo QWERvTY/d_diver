@@ -22,11 +22,6 @@
 <link rel="stylesheet" href="/resources/css/style.css"/>
 <link rel="stylesheet" href="/resources/css/custom.css" />
 
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-
 </head>
 <body>
 	<!-- Page Preloder -->
@@ -62,12 +57,6 @@
 				<option>공포(호러)</option>
 				<option>기타</option>
 			</select>
-<!-- 			<select> -->
-<!-- 				<option>All Ingredients</option> -->
-<!-- 				<option>Breakfast</option> -->
-<!-- 				<option>Lunch</option> -->
-<!-- 				<option>Dinner</option> -->
-<!-- 			</select> -->
 			<input type="text" placeholder="검색">
 			<button class="bsf-btn">검색</button>
 		</form>
