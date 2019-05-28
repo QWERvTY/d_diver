@@ -19,7 +19,7 @@
 		<property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:XE" />
 		 -->
 		<property name="driverClassName" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy" />
-		<property name="jdbcUrl" value="jdbc:log4jdbc:mysql://localhost:3306/mydb?useSSL=false" />
+		<property name="jdbcUrl" value="jdbc:log4jdbc:mysql://localhost:3306/d_diver?useSSL=false" />
 		<property name="username" value="root"/>
 		<property name="password" value="root"/>
 	</bean>
