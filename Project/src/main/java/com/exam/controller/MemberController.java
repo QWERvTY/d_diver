@@ -10,6 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.exam.domain.MemberVO;
 import com.exam.service.MemberService;
@@ -96,17 +97,13 @@ public class MemberController {
 	}//join
 	
 	
-	@GetMapping("/joinIdCheck")
-	public String joinIdCheck() {
-		System.out.println("<< joinIdCheck 호출 >>");
-		return "member/joinIdCheck";
-	}
-	/*@GetMapping("/joinIdCheckJson")
-    public boolean joinIdCheckJson() {
+	@GetMapping("/joinIdCheckJson")
+	@ResponseBody
+    public boolean joinIdCheckJson(String userId) {
         System.out.println("<< joinIdCheckJson 호출 >>");
-        boolean result = 
-        return false;
-    }*/
+        System.out.println(userId);
+        return service.isIdDupChecked(userId);
+    }
 	
 	
 	

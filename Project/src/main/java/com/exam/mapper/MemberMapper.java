@@ -7,4 +7,5 @@ public interface MemberMapper {
 	
 	public MemberVO getMemberById(String id);
 	
+	public int countById(String id);
 }

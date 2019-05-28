@@ -35,7 +35,20 @@ public class MemberServiceImpl implements MemberService {
 		
 		return check;
 	}
+
+	@Override
+	public boolean isIdDupChecked(String id) {
+		int count = mapper.countById(id);
+		
+		boolean isDup = false;
+		if (count > 0) {
+			isDup = true;
+		}
+		
+		return isDup;
+	}
 	
 	
 
+	
 }

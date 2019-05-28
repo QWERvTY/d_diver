@@ -34,8 +34,8 @@ $(function() {
 		$.ajax({
 			url : '/member/joinIdCheckJson',
 			data : {
-				userid : id
-			}, // userid=id입력값
+				userId : id
+			}, // userId=id입력값
 			success : function(isDup) {
 				console.log('result 변수 타입: ' + typeof (isDup));
 				console.log('result: ' + isDup);
@@ -121,8 +121,8 @@ function formCheck() {
 			
 				<fieldset>
 					<legend>Basic Info</legend>
-					<label>User ID</label>
-					<input type="text" name="id" class="id" required><span id="dupCheck"></span><br>
+					<label>User ID</label><span id="dupCheck" style="float: right;"></span>
+					<input type="text" name="id" class="id" required><br>
 					<label>Password</label>
 					<input type="password" name="password" required><br>
 					<label>E-Mail</label>

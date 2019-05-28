@@ -7,4 +7,6 @@ public interface MemberService {
 	public int join(MemberVO memberVO);
 
 	public int loginCheck(String id, String password);
+	
+	public boolean isIdDupChecked(String id);
 }

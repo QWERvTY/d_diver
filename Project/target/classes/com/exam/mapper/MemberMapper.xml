@@ -13,6 +13,9 @@
 	SELECT * FROM member WHERE id = #{id}
 </select>
 
+<select id="countById" resultType="_int">
+	SELECT COUNT(*) FROM member WHERE id = #{id}
+</select>
 	
 </mapper>
 
