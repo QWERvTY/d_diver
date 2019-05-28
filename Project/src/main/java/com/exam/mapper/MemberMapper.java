@@ -1,5 +1,7 @@
 package com.exam.mapper;
 
-public interface MemberMapper {
+import com.exam.domain.MemberVO;
 
+public interface MemberMapper {
+	public int insert(MemberVO member);
 }
